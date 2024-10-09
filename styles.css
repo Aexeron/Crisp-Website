@@ -1,0 +1,38 @@
+* {
+    background-color: lightgray;
+}
+
+* {
+    font-family: roboto, sans-serif;
+}
+
+div {
+    display :flex
+
+}
+
+.heading {
+    flex: 1
+}
+
+.center {
+    flex: 1
+}
+
+.align {
+    flex: 1
+}
+.desc {
+    display: flex;
+}
+.cent {
+    flex: 1;
+}
+
+.actual-desc {
+    flex: 1;
+}
+
+.end {
+    flex: 1;
+}
