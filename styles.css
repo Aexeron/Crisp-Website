@@ -1,9 +1,11 @@
-* {
-    background-color: lightgray;
+.align, .heading {
+    background-color: #1F2937;
+    color: white
 }
 
 * {
     font-family: roboto, sans-serif;
+    font-size: 24px;
 }
 
 div {
@@ -12,12 +14,12 @@ div {
 }
 
 .heading {
-    flex: 1
+    flex: 1 ;
+    flex-direction: column;
+
 }
 
-.center {
-    flex: 1
-}
+
 
 .align {
     flex: 1
@@ -25,9 +27,7 @@ div {
 .desc {
     display: flex;
 }
-.cent {
-    flex: 1;
-}
+
 
 .actual-desc {
     flex: 1;
@@ -36,3 +36,82 @@ div {
 .end {
     flex: 1;
 }
+
+.products {
+    display:flex
+}
+
+.left {
+    flex: 1
+}
+
+.middle {
+    flex: 1
+}
+
+.right {
+    flex: 1
+}
+
+.head2 {
+    display: flex;
+    
+}
+
+.a {
+    flex: 1
+}
+
+.b {
+    flex: 1
+}
+
+.c {
+    flex: 1
+}
+
+.middle {
+    justify-content: space-between;
+    
+}
+
+.product3 {
+    
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    outline: 20px maroon;
+    border-radius: 24px;
+}
+
+.product1 {
+    
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    outline: 20px maroon;
+    border-radius: 24px;
+}
+.product2 {
+    
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    outline: 20px maroon;
+    border-radius: 24px;
+}
+
+.product4 {
+    
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    outline: 20px maroon;
+    border-radius: 24px;
+}
+
+img {
+    width:auto;
+    height: 500px;
+}
+
