@@ -115,3 +115,36 @@ img {
     height: 500px;
 }
 
+.Contributebanner {
+    display: flex;
+}
+
+.split {
+    flex-direction: column;
+    flex: 1
+}
+
+.image {
+    flex: 1;
+}
+
+.contributebanner {
+    background-color: #1F2937;
+    color: white;
+}
+
+
+a {
+    color: white;
+}
+
+.righter {
+    flex: 1;
+}
+
+
+
+.head2,
+.products {
+    background-color: white;
+}
