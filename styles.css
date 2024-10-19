@@ -5,7 +5,7 @@
 
 * {
     font-family: roboto, sans-serif;
-    font-size: 24px;
+    
 }
 
 div {
@@ -69,6 +69,7 @@ div {
 .c {
     flex: 1
 }
+
 
 .middle {
     justify-content: space-between;
@@ -142,9 +143,39 @@ a {
     flex: 1;
 }
 
-
+div {
+    font-size: 20px;
+}
 
 .head2,
 .products {
     background-color: white;
 }
+
+.header {
+    display: flex;
+}
+
+.headeritem {
+    flex: 1;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.headeritem2 {
+    background-color: #1F2937;
+    color: white;
+}
+
+.footer {
+    display: flex;
+}
+
+.footeritem {
+    flex: 1;
+    background-color: #1F2937;
+    color: white;
+
+}
+
+
